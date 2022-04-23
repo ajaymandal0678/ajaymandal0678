@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "express-jwt": "^7.4.3",
     "mongoose": "^6.2.10"
   }
 }

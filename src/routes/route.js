@@ -6,7 +6,7 @@ const router = express.Router();
 // const commonMiddleModel=require("../middleware/commonMiddleware")
 // const freeAppController=require("../controller/freeAppController");
 
-const usersController=require("../controller/userController1");
+const usersController=require("../../../../javascript.js/middleware/userController1");
 
 router.get('/test-me', function (req, res) {
     res.send('My first ever api!')
